@@ -1,0 +1,98 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+nav{
+	width: 100%;
+	height: 75px;
+	line-height: 75px;
+	padding: 0px 10px;
+	position: fixed;
+	background-color: gray;
+}
+nav .logo p{
+	font-size: 35px;
+	font-weight: bold;
+	float: left;
+	margin-right: 10%;
+	/*text-transform: uppercase;*/
+	/*letter-spacing: 1.5px;*/
+	/*cursor: pointer;*/
+
+}
+nav .logo a{
+	color: white;
+	text-decoration: none;
+}
+nav ul{
+	float: right;
+
+}
+nav li{
+	display: inline-block;
+	list-style: none;
+}
+nav li a{
+	font-size: 20px;
+	/*text-transform: uppercase;*/
+	padding: 0px 30px;
+	text-decoration: none;
+	color: white;
+}
+nav li a:hover{
+	color: #ff8c69;
+	transition: all 0.4s ease 0s;
+}
+/*.heading{
+	text-align: center;
+	color: black;
+	text-align: center;
+	padding-top: 20%;
+}*/
+
+.logout{
+	padding: 10px;
+	border-radius: 5px;
+	width: 100px;
+	border: 2px solid black;
+	background: orange;
+	font-size: 15px;
+	cursor: pointer;
+	color: white;
+}
+.heading{
+	text-align: center;
+	color: black;
+	text-align: center;
+	padding-top: 8%;
+}
+.table{
+	font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 130px;
+    padding-bottom: 10%;
+
+}
+table,tr{
+	margin-top: 20px;
+}
+td,th{
+	border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+.delete{
+	width: 80px;
+	padding: 5px;
+	border-radius: 5px;
+	color: white;
+	background: red;
+	margin-left: 5px;
+	cursor: pointer;
+}
+.delete a{
+	color: white;
+	text-decoration: none;
+}

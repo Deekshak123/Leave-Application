@@ -1,0 +1,220 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+nav{
+	width: 100%;
+	height: 75px;
+	line-height: 75px;
+	padding: 0px 10px;
+	position: fixed;
+	background-color: grey;
+}
+nav .logo p{
+	font-size: 35px;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+	float: left;
+}
+nav ul{
+	float: right;
+}
+nav li{
+	display: inline-block;
+	list-style: none;
+}
+nav li a{
+	font-size: 20px;
+	color: white;
+	padding: 0px 30px;
+	text-decoration: none;
+}
+nav li a:hover{
+	color: lightblue;
+	transition: all 0.4% ease;
+}
+.form{
+	position: relative;
+	display: grid;
+	place-items: center;
+}
+.textbox{
+	border: 2px solid;
+	margin-top: 23px;
+	width: 550px;
+	border-radius: 5px;
+	outline: none;
+	background: none;
+	padding: 10px;
+}
+.form-label{
+	position: relative;
+	top: -1.7rem;
+	left: -14rem;
+	cursor: text;
+	transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+.textbox:focus{
+	border: 2px solid lightblue;
+}
+.textbox:focus ~ .form-label,
+.textbox:not(:placeholder-shown).textbox:not(:focus)~.form-label
+{
+	top: -2.8rem;
+	left: -14.5rem;
+	font-size: 14px;
+	background: white;
+}
+.textbox5{
+	border: 2px solid;
+	margin-top: 23px;
+	width: 550px;
+	border-radius: 5px;
+	outline: none;
+	background: none;
+	padding: 10px;
+}
+.form-label5{
+	position: relative;
+	top: -1.7rem;
+	left: -14rem;
+	cursor: text;
+	transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+.textbox5:focus{
+	border: 2px solid lightblue;
+}
+.textbox5:focus ~ .form-label5,
+.textbox5:not(:placeholder-shown).textbox5:not(:focus)~.form-label5
+{
+	top: -2.8rem;
+	left: -14.5rem;
+	font-size: 14px;
+	background: white;
+}
+.textbox1{
+	border: 2px solid;
+	margin-top: 23px;
+	width: 550px;
+	border-radius: 5px;
+	outline: none;
+	background: none;
+	padding: 10px;
+}
+.form-label1{
+	position: relative;
+	top: -1.7rem;
+	left: -15rem;
+	cursor: text;
+	transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+.textbox1:focus{
+	border: 2px solid lightblue;
+}
+.textbox1:focus ~ .form-label1,
+.textbox1:not(:placeholder-shown).textbox1:not(:focus)~.form-label1
+{
+	top: -2.8rem;
+	left: -15.2rem;
+	font-size: 14px;
+	background: white;
+}
+.textbox2{
+	border: 2px solid;
+	margin-top: 23px;
+	width: 550px;
+	border-radius: 5px;
+	outline: none;
+	background: none;
+	padding: 10px;
+}
+.form-label2{
+	position: relative;
+	top: -1.7rem;
+	left: -14rem;
+	cursor: text;
+	transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+.textbox2:focus{
+	border: 2px solid lightblue;
+}
+.textbox2:focus ~ .form-label2,
+.textbox2:not(:placeholder-shown).textbox2:not(:focus)~.form-label2
+{
+	top: -2.8rem;
+	left: -14.5rem;
+	font-size: 14px;
+	background: white;
+}
+.textbox3{
+	border: 2px solid;
+	margin-top: 23px;
+	width: 550px;
+	border-radius: 5px;
+	outline: none;
+	background: none;
+	padding: 10px;
+}
+.form-label3{
+	position: relative;
+	top: -1.7rem;
+	left: -14rem;
+	cursor: text;
+	transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+.textbox3:focus{
+	border: 2px solid lightblue;
+}
+.textbox3:focus ~ .form-label3,
+.textbox3:not(:placeholder-shown).textbox3:not(:focus)~.form-label3
+{
+	top: -2.8rem;
+	left: -14.5rem;
+	font-size: 14px;
+	background: white;
+}
+.textbox4{
+	border: 2px solid;
+	margin-top: 23px;
+	width: 550px;
+	border-radius: 5px;
+	outline: none;
+	background: none;
+	padding: 10px;
+}
+.form-label4{
+	position: relative;
+	top: -1.7rem;
+	left: -12.3rem;
+	cursor: text;
+	transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+.textbox4:focus{
+	border: 2px solid lightblue;
+}
+.textbox4:focus ~ .form-label4,
+.textbox4:not(:placeholder-shown).textbox4:not(:focus)~.form-label4
+{
+	top: -2.8rem;
+	left: -13rem;
+	font-size: 14px;
+	background: white;
+}
+
+.select{
+	padding: 5px;
+	border: 2px solid;
+	border-radius: 5px;
+	width: 150px;
+}
+.submit{
+	background: lightblue;
+	width: 450px;
+	margin-top: 30px;
+	padding: 10px;
+	border: 2px solid;
+	border-radius: 5px;
+	cursor: pointer;
+}
